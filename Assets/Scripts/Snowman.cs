@@ -4,6 +4,7 @@ using UnityEngine;
 public class Snowman : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private int reward;
     [SerializeField] private Transform target;
 
     private void Start()
@@ -21,6 +22,12 @@ public class Snowman : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.GetComponent<Factory>())
+        {
+            var _currencyManager = FindObjectOfType<CurrencyManager>();
+            _currencyManager.AddReward(reward);
+            
             Destroy(gameObject);
+        }
+            
     }
 }
