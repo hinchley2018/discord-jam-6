@@ -20,6 +20,11 @@ public class Snowman : MonoBehaviour
         //StartCoroutine(CheckForDamage());
     }
 
+    private void OnDestroy()
+    {
+        //AudioPlayer.PlaySound(deathSound);
+    }
+
     private void Update()
     {
         var direction = target.position - transform.position;
