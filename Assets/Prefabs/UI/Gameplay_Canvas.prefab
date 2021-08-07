@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712748016121203868}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5457001, y: 0.12709999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -157,7 +157,7 @@ MonoBehaviour:
         m_MethodName: ActivateSelection
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8104217507395308773, guid: b24e0307b6879e44ba17930cc889b529, type: 3}
+          m_ObjectArgument: {fileID: 7853502394691564503, guid: 9f9de557c5390124c9919beb9d6fe7e0, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -503,7 +503,7 @@ MonoBehaviour:
         m_MethodName: ActivateSelection
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8104217507395308773, guid: b24e0307b6879e44ba17930cc889b529, type: 3}
+          m_ObjectArgument: {fileID: 7853502394691564503, guid: 9f9de557c5390124c9919beb9d6fe7e0, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

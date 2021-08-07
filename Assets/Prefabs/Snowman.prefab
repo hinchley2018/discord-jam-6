@@ -430,6 +430,8 @@ MonoBehaviour:
   health: 3
   target: {fileID: 0}
   spawnSound: {fileID: 8300000, guid: c330187db07d4ab48822ff21558d9fd0, type: 3}
+  deathSound: {fileID: 8300000, guid: 9a4ad0854e4672a48a7ec3b38e668d64, type: 3}
+  IsInFactoryDamageRange: 0
 --- !u!1 &6665816366290800328
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,20 +9,20 @@ public class Snowman : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private Transform target;
     [SerializeField] private AudioClip spawnSound;
-    private bool IsInFactoryDamageRange = false;
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private bool IsInFactoryDamageRange = false;
     private float delay = .25F;
+    private Coroutine coroutine;
 
     private void Start()
     {
         target = FindObjectOfType<TownCenter>().transform;
         AudioPlayer.PlaySound(spawnSound);
-
-        //StartCoroutine(CheckForDamage());
     }
 
     private void OnDestroy()
     {
-        //AudioPlayer.PlaySound(deathSound);
+        AudioPlayer.PlaySound(deathSound);
     }
 
     private void Update()
@@ -37,8 +37,8 @@ public class Snowman : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Factory>())
         {
-            IsInFactoryDamageRange = true;           
-            
+            IsInFactoryDamageRange = true;
+            coroutine = StartCoroutine(CheckForDamage());
         }
             
     }
@@ -46,6 +46,7 @@ public class Snowman : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Factory>())
         {
+            if (coroutine != null) StopCoroutine(coroutine);
             IsInFactoryDamageRange = false;
         }
     }
