@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameEvents : ScriptableObject
 {
     public UnityEvent gameOver;
+    public GameObject buildingPrefab;
 
     public void RestartGame()
     {
@@ -19,18 +20,21 @@ public class GameEvents : ScriptableObject
 
     public void ActivateSelection(GameObject prefab)
     {
+        buildingPrefab = prefab;
         foreach(var buildingPlaceHolder in FindObjectsOfType<BuildingPlaceHolder>())
-            buildingPlaceHolder.ActivateSelection(prefab);
+            buildingPlaceHolder.ActivateSelection();
     }
     
     public void ActivateSnowmanSelection(GameObject prefab)
     {
+        buildingPrefab = prefab;
         foreach(var snowmanPlaceHolder in FindObjectsOfType<SnowmanPlaceHolder>())
-            snowmanPlaceHolder.ActivateSelection(prefab);
+            snowmanPlaceHolder.ActivateSelection();
     }
     
     public void DeactivateSelection()
     {
+        buildingPrefab = null;
         foreach(var snowmanPlaceHolder in FindObjectsOfType<SnowmanPlaceHolder>())
             snowmanPlaceHolder.DeactivateSelection();
         foreach(var buildingPlaceHolder in FindObjectsOfType<BuildingPlaceHolder>())

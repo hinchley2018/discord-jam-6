@@ -9,8 +9,8 @@ public class Snowman : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private Transform target;
     [SerializeField] private AudioClip spawnSound;
-    [SerializeField] private AudioClip deathSound;
     [SerializeField] private bool IsInFactoryDamageRange = false;
+    [SerializeField] private GameObject snowmanDeathPrefab;
     private float delay = .25F;
     private Coroutine coroutine;
 
@@ -18,11 +18,6 @@ public class Snowman : MonoBehaviour
     {
         target = FindObjectOfType<TownCenter>().transform;
         AudioPlayer.PlaySound(spawnSound);
-    }
-
-    private void OnDestroy()
-    {
-        AudioPlayer.PlaySound(deathSound);
     }
 
     private void Update()
@@ -59,7 +54,7 @@ public class Snowman : MonoBehaviour
             {
                 var _currencyManager = FindObjectOfType<CurrencyManager>();
                 _currencyManager.AddReward(reward);
-    
+                Instantiate(snowmanDeathPrefab, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
             health -= 1;
