@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu]
 public class GameEvents : ScriptableObject
 {
+    public UnityEvent<int> startWave;
     public UnityEvent gameOver;
     public GameObject buildingPrefab;
 
