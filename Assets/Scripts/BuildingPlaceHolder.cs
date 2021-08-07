@@ -8,18 +8,17 @@ public class BuildingPlaceHolder : MonoBehaviour, IPointerClickHandler
     public Color inactiveColor = Color.clear;
     public Color activeColor = Color.green;
     public bool selectionActive;
-    public GameObject buildingPrefab;
+    public GameEvents gameEvents;
 
     private void OnEnable()
     {
         spriteRenderer.color = inactiveColor;
     }
 
-    public void ActivateSelection(GameObject prefab)
+    public void ActivateSelection()
     {
         spriteRenderer.color = activeColor;
         selectionActive = true;
-        buildingPrefab = prefab;
     }
 
     public void DeactivateSelection()
@@ -36,9 +35,10 @@ public class BuildingPlaceHolder : MonoBehaviour, IPointerClickHandler
     private void MakeSelection()
     {
         if (!selectionActive) return;
-        if (buildingPrefab)
+        if (gameEvents && gameEvents.buildingPrefab)
         {
-            var building = Instantiate(buildingPrefab, transform.position, transform.rotation);
+            Instantiate(gameEvents.buildingPrefab, transform.position, transform.rotation);
+            gameEvents.DeactivateSelection();
         }
         Destroy(gameObject);
         }

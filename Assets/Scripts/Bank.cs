@@ -18,7 +18,7 @@ public class Bank : MonoBehaviour
         {
             yield return new WaitForSeconds(2);
             var _currencyManager = FindObjectOfType<CurrencyManager>();
-            _currencyManager.AddReward(5);
+            _currencyManager.AddReward(income);
             yield return new WaitForSeconds(2);
         }
         
