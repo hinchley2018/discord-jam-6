@@ -6,6 +6,7 @@ public class SnowmanSpawner : MonoBehaviour
     public GameObject snowmanPrefab;
     public float delay;
     public float spawnRate;
+    public int spawnAmount;
 
     private void Start()
     {
@@ -15,7 +16,7 @@ public class SnowmanSpawner : MonoBehaviour
     private IEnumerator SpawnSnowmen()
     {
         yield return new WaitForSeconds(delay);
-        while (true)
+        for (var i = 0; i < spawnAmount; i++)
         {
             var snowman = Instantiate(snowmanPrefab);
             snowman.transform.position = transform.position;

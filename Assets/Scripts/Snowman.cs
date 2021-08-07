@@ -17,4 +17,10 @@ public class Snowman : MonoBehaviour
         direction = direction.normalized;
         transform.position += direction * (speed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.GetComponent<Factory>())
+            Destroy(gameObject);
+    }
 }
