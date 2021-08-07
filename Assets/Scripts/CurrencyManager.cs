@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class CurrencyManager : MonoBehaviour
 {
-    [SerializeField] private TextMeshPro _currencyText;
+    [SerializeField] private TextMeshProUGUI _currencyText;
     [SerializeField] private int money;
     // Start is called before the first frame update
     

@@ -342,4 +342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  reward: 1
   target: {fileID: 0}
+  spawnSound: {fileID: 8300000, guid: c330187db07d4ab48822ff21558d9fd0, type: 3}
