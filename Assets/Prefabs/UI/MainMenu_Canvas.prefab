@@ -333,15 +333,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: A Discord Jam 6 Submission
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: ad87ddc20f212a94cad196514dbf6ec5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
+  m_sharedMaterial: {fileID: 7601908851813797374, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283699730
+  m_fontColor: {r: 0.07008723, g: 0.07081247, b: 0.3301887, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

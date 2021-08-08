@@ -19,6 +19,7 @@ MonoBehaviour:
   spatialBlend2Dto3D: 0
   minDistance: 0
   maxDistance: 45
+  loop: 1
   audioRolloff: 1
   playOnAwake: 0
   start: 0

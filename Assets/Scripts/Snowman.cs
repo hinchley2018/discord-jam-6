@@ -33,6 +33,7 @@ public class Snowman : MonoBehaviour
     {
         target = FindObjectOfType<TownCenter>().transform;
         targetWithRandomness = target.position + (Vector3) Random.insideUnitCircle;
+        stopRadius = target.GetComponent<CircleCollider2D>().radius;
         if (spawnSound) AudioPlayer.PlaySound(spawnSound);
         coroutine = StartCoroutine(CheckForDamage());
     }

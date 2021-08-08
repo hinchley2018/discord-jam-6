@@ -401,9 +401,10 @@ MonoBehaviour:
   target: {fileID: 0}
   targetWithRandomness: {x: 0, y: 0, z: 0}
   spawnSound: {fileID: 0}
-  IsInFactoryDamageRange: 0
   snowmanDeathPrefab: {fileID: 6710799134877837851, guid: c153a24650e93df45abf9edb43c91336, type: 3}
   stopRadius: 1
+  delayBetweenTakeDamage: 0.25
+  attackDamage: 1
 --- !u!1 &7296535765531079571
 GameObject:
   m_ObjectHideFlags: 0

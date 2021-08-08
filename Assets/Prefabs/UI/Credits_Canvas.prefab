@@ -32,10 +32,10 @@ RectTransform:
   m_Father: {fileID: 6607918939197492347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7605854, y: 5.0314636}
-  m_SizeDelta: {x: 696.7146, y: 309.38}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: -100, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &925397996699973270
 CanvasRenderer:
@@ -65,10 +65,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Credit to....
+  m_text: '<b>Credits:</b>
+
+    <b>ETdoFresh</b> with Nautical Noodle LLC (Lead Dev)
+
+    <b>Jonas
+    Harper</b> aka Tentras (Lead Artist and Sound Effects)
+
+    <b>Jonathon Hinchley</b>
+    (Developer and Narrative)
+
+
+    <b>Assets:</b>
+
+    Music Artlist.io - Aves -
+    Joy Ride
+
+    Music Artlist.io - Leva - On the Blade of the Knife
+
+    SFX Artlist.io
+    - Michael Anctil - Shattered - Wood
+
+    SFX Artlist.io - Silence+Other Sounds
+    - Organic Tension - Water Drop
+
+    Font 1001fonts - Yoster Island by codeman38'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
+  m_sharedMaterial: {fileID: 7601908851813797374, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -92,10 +116,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -201,8 +225,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: A Discord Jam 6 Submission
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: ad87ddc20f212a94cad196514dbf6ec5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
+  m_sharedMaterial: {fileID: 7601908851813797374, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -329,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -623,8 +647,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
+  m_sharedMaterial: {fileID: 7601908851813797374, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

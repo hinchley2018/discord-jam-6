@@ -167,8 +167,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: <b>Snowman Says:</b> Some dialog from storage
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
+  m_sharedMaterial: {fileID: 7601908851813797374, guid: 9e38db3b46743d8468a481f8352cc0f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
