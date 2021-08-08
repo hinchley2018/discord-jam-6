@@ -23,6 +23,7 @@ public class WaveManager : MonoBehaviour
         Debug.Log($"WaveManager: Beginning of {waveNumber}");
         if (waveNumber == 0) Main.PlayHappyMusic();
         if (waveNumber == 1) Main.PlayAngryMusic();
+        if (waveNumber == 12) Main.PlayAngryMusic();
         
         foreach (var child in transform)
             ((Transform)child).gameObject.SetActive(false);

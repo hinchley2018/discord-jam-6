@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class DialogManager : MonoBehaviour
     private int waveIndex;
     private int innerDialogIndex;
     public GameEvents gameEvents;
+
     private List<List<string>> dialogStorage = new List<List<string>>
     {
         //0
@@ -20,7 +22,6 @@ public class DialogManager : MonoBehaviour
             "You play as an aspiring business tycoon, who has come North to the small town of Winteria to start building your empire",
             "You saved up some money so start construction on some buildings, click the buttons below to get started!",
             "Keep in mind you only have so much space in Winteria, so choose carefully",
-            
         },
         //1 snowmen attack
         new List<string>
@@ -28,7 +29,6 @@ public class DialogManager : MonoBehaviour
             "<b>Snowmen:</b> We thought the subzero temperatures would be enough to stop you humans from melting our snow.",
             "<b>Snowmen:</b> Your factories are polluting the atmosphere and melting our polar palaces!",
             "<b>Snowmen:</b> If you want something done right you have to do it yourself. Die humans!",
-            
         },
         //2 no dialog
         new List<string>(),
@@ -58,7 +58,33 @@ public class DialogManager : MonoBehaviour
         new List<string>
         {
             "<b>Snowmen:</b> We brought all our big brothers from the neighboring towns. This is the end of your pollution and heat!"
-        }
+        },
+        //11
+        new List<string>
+        {
+            "<b>Victory!!!...</b>",
+            "<b>But at what cost!?!</b>",
+            "Thank you for playing our game!",
+            "We really appreciate it",
+            "See you later...",
+            "Bye!",
+            "Still clicking?",
+            ".",
+            "..",
+            "...",
+            "Oww! Please stop!",
+            "You've already killed soo many snowmen!",
+            "What else do you want!?!",
+            "Well, OK, let's bring you back to the menu screen",
+            "Give me a second!!",
+            "OK! All set!",
+            "See ya! :P"
+        },
+        //12
+        new List<string>
+        {
+            "<b>Snowmen:</b> The puny humans in this tiny town have no room to defend. Attack!!!!!"
+        },
     };
 
     private void OnEnable()
@@ -100,10 +126,9 @@ public class DialogManager : MonoBehaviour
 
             //set dialog text
             _dialogTextWidget.text = waveDialogList[innerDialogIndex];
-            
         }
     }
-    
+
     //next dialog
     public void NextDialog()
     {
@@ -124,8 +149,9 @@ public class DialogManager : MonoBehaviour
             //Debug.Log("hiding dialog");
             _dialogCanvas.SetActive(false);
             Time.timeScale = 1f;
+
+            if (waveIndex == 11)
+                SceneManager.LoadScene("MainMenu");
         }
     }
-
-
 }

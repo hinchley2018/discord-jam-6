@@ -616,17 +616,18 @@ MonoBehaviour:
   snowmanTooltip: '<b>Snowman</b><pos=75%>Cost 0
 
     A nice friendly snowman!'
-  hutTooltip: '<b>Hut</b> (1 coin/3 sec)<pos=75%>Cost 1
+  hutTooltip: '<b>Hut</b> (gain 1 coin/3 sec)<pos=75%>Cost 1
 
-    People like their homes!'
-  bankTooltip: '<b>Bank</b> (1 coins/1 sec)<pos=75%>Cost 20
+    People like their
+    homes!'
+  bankTooltip: '<b>Bank</b> (gain 1 coins/1 sec)<pos=75%>Cost 20
 
-    A place where money
-    is made!'
-  factoryTooltip: '<b>Factory</b> (produces heat)<pos=75%>Cost 50
+    A place where
+    money is made!'
+  factoryTooltip: '<b>Factory</b> (lose 1 coin/2 sec)<pos=75%>Cost 50
 
-    Energy and
-    Utilities for people!'
+    Energy
+    and Utilities for people!'
 --- !u!1 &1712748016161362727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,7 +1486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

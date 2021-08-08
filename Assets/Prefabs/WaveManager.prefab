@@ -38,6 +38,8 @@ Transform:
   - {fileID: 9060131503029686577}
   - {fileID: 7744081724895298056}
   - {fileID: 2049271942339562333}
+  - {fileID: 7574434276995276580}
+  - {fileID: 5427607223701130849}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -105,6 +107,70 @@ PrefabInstance:
     - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -177,12 +243,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
-      value: 5
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -190,15 +264,23 @@ PrefabInstance:
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 10
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
-      value: 5
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -206,15 +288,23 @@ PrefabInstance:
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 10
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
-      value: 5
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -222,15 +312,23 @@ PrefabInstance:
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 10
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
-      value: 5
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -238,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -259,6 +357,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
   m_PrefabInstance: {fileID: 444991328689873596}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &783634530936385338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7574434276995276580}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.015700102
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
 --- !u!1001 &947672799004220869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -310,6 +497,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
       value: Wave (6)
@@ -338,7 +589,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -349,8 +600,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
@@ -358,7 +613,7 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
@@ -467,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
@@ -475,7 +730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -483,11 +738,11 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
@@ -495,7 +750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -503,11 +758,11 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
@@ -515,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -523,11 +778,11 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: spawnAmount
@@ -535,7 +790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanPrefab
@@ -543,7 +798,7 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 25
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -564,6 +819,362 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
   m_PrefabInstance: {fileID: 2793728153533650737}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3049682964446428468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5427607223701130849}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.015700102
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &3151494892243835318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5427607223701130849}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &3244869729023850069
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5427607223701130849}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &3591266133953432634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7574434276995276580}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
 --- !u!1001 &4536045019637740790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -571,6 +1182,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6175457668304279290}
     m_Modifications:
+    - target: {fileID: 1295875587292178416, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295875587820817315, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295875587986417961, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -620,40 +1243,64 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: delay
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -674,16 +1321,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
   m_PrefabInstance: {fileID: 4536045019637740790}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &6277180411341761970
+--- !u!1001 &4896131066953717286
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2049271942339562333}
+    m_TransformParent: {fileID: 7574434276995276580}
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -694,8 +1341,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
@@ -703,7 +1354,440 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 30
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &5840650551526664064
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6175457668304279290}
+    m_Modifications:
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_Name
+      value: Wave (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230720501684216325, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: waveNumber
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+--- !u!4 &5427607223701130849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+  m_PrefabInstance: {fileID: 5840650551526664064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6268420923522184138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5427607223701130849}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &6277180411341761970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2049271942339562333}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_Name
+      value: Spawner (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8084579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877190324039071996, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+--- !u!1001 &6296122343770262469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7574434276995276580}
+    m_Modifications:
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnRate
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: spawnAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
@@ -768,7 +1852,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -779,8 +1863,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
@@ -788,7 +1876,7 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
@@ -896,36 +1984,56 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
-      propertyPath: snowmanHealth
+      propertyPath: spawnAmount
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 5
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -997,6 +2105,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
       value: Wave (8)
@@ -1025,7 +2197,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -1036,8 +2208,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
@@ -1045,7 +2221,7 @@ PrefabInstance:
       objectReference: {fileID: 2261134786152755453, guid: cb139f10d59fd2f4ba1a540f96b7b838, type: 3}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
@@ -1108,6 +2284,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6175457668304279290}
     m_Modifications:
+    - target: {fileID: 1295875587820817315, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295875587986417961, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1152,13 +2336,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 4
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 4
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
@@ -1230,6 +2446,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
       value: Wave (9)
@@ -1248,6 +2528,172 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
   m_PrefabInstance: {fileID: 8152665365883251689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8305024054427645637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6175457668304279290}
+    m_Modifications:
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnRate
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanPrefab
+      value: 
+      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_Name
+      value: Wave (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230720501684216325, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: waveNumber
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+--- !u!4 &7574434276995276580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1899556661406951905, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+  m_PrefabInstance: {fileID: 8305024054427645637}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8511829229055015596
 PrefabInstance:
@@ -1301,36 +2747,52 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
-      propertyPath: snowmanHealth
+      propertyPath: spawnAmount
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: spawnAmount
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanHealth
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: snowmanMaxHealth
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name

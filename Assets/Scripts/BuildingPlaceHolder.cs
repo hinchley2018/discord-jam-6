@@ -42,5 +42,11 @@ public class BuildingPlaceHolder : MonoBehaviour, IPointerClickHandler
             FindObjectOfType<GameplayCanvas>().selectedButton = null;
         }
         Destroy(gameObject);
-        }
+
+        var placeholders = FindObjectsOfType<BuildingPlaceHolder>();
+        var wave = FindObjectOfType<Wave>();
+        if (placeholders.Length <= 1 && !wave)
+            gameEvents.startWave.Invoke(12);
+
+    }
 }

@@ -71,6 +71,12 @@ using UnityEngine.Audio;
             audioSource.maxDistance = maxDistance;
             audioSource.rolloffMode = audioRolloff;
 
+            if (loop)
+            {
+                audioSource.Play();
+                return audioSource;
+            }
+            
             var mb = gameObject.AddComponent<CoroutineMonoBehaviour>();
             if (stop > 0)
                 mb.StartCoroutine(Play(audioSource, start, stop));

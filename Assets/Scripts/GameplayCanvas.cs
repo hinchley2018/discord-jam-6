@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -33,6 +35,22 @@ public class GameplayCanvas : MonoBehaviour
     {
         currencyManager = FindObjectOfType<CurrencyManager>();
         tooltip.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        gameEvents.startWave.AddListener(ChangeSnowmanDescription);
+    }
+
+    private void OnDisable()
+    {
+        gameEvents.startWave.RemoveListener(ChangeSnowmanDescription);
+    }
+
+    private void ChangeSnowmanDescription(int waveNum)
+    {
+        if (waveNum == 1)
+            snowmanTooltip = "<b>Snowman</b><pos=75%>Cost 0\nAn evil snowman!!!!";
     }
 
     private void Update()
