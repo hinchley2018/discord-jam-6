@@ -70,6 +70,6 @@ PrefabInstance:
     - target: {fileID: 8417403781729406659, guid: c153a24650e93df45abf9edb43c91336, type: 3}
       propertyPath: deathSound
       value: 
-      objectReference: {fileID: 8300000, guid: 2e4316375fcf13e439c76064e71f8f76, type: 3}
+      objectReference: {fileID: 11400000, guid: d25b366d2cbfd004fb648ac437d46786, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c153a24650e93df45abf9edb43c91336, type: 3}

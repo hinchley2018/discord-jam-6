@@ -20,6 +20,9 @@ public class WaveManager : MonoBehaviour
 
     private void StartWave(int waveNumber)
     {
+        if (waveNumber == 0) Main.PlayHappyMusic();
+        if (waveNumber == 1) Main.PlayAngryMusic();
+        
         foreach (var child in transform)
             ((Transform)child).gameObject.SetActive(false);
         

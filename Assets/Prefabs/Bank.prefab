@@ -44,8 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7fae4e963a69fe41ae0a86675899b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  income: 5
+  income: 1
   cost: 20
+  rate: 1
 --- !u!1 &1114993786200738365
 GameObject:
   m_ObjectHideFlags: 0

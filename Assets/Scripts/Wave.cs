@@ -31,6 +31,7 @@ public class Wave : MonoBehaviour
         _wereAllSnowmenMelted = true;
         _spawners.AddRange(GetComponentsInChildren<SnowmanSpawner>());
         gameEvents.allWaveSnowmenMelted.AddListener(FinishWave);
+        StartCoroutine(ConvertNiceSnowmen());
     }
 
     private void OnDisable()
@@ -69,5 +70,12 @@ public class Wave : MonoBehaviour
         _animator.Play("Wave_Canvas_Animation", -1, 0);
         yield return new WaitForSeconds(5);
         gameEvents.startWave.Invoke(waveNumber + 1);
+    }
+
+    private IEnumerator ConvertNiceSnowmen()
+    {
+        yield return new WaitForSeconds(7 + Random.Range(-1, 1));
+        foreach (var niceSnowman in FindObjectsOfType<NiceSnowman>())
+            niceSnowman.Convert();
     }
 }

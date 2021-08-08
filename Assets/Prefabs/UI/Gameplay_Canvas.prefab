@@ -336,7 +336,7 @@ MonoBehaviour:
         m_MethodName: ActivateSnowmanSelection
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+          m_ObjectArgument: {fileID: 7617900418863160455, guid: e520356648fd0d84594ed80e8e6fc711, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -539,10 +539,10 @@ MonoBehaviour:
   snowmanTooltip: '<b>Snowman</b><pos=75%>Cost 0
 
     A nice friendly snowman!'
-  hutTooltip: '<b>Hut</b> (1 coin/sec)<pos=75%>Cost 1
+  hutTooltip: '<b>Hut</b> (1 coin/3 sec)<pos=75%>Cost 1
 
     People like their homes!'
-  bankTooltip: '<b>Bank</b> (5 coins/sec)<pos=75%>Cost 20
+  bankTooltip: '<b>Bank</b> (1 coins/1 sec)<pos=75%>Cost 20
 
     A place where money
     is made!'
@@ -776,7 +776,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 20, y: -20}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1712748016595624178
 CanvasRenderer:
@@ -815,8 +815,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4285144179
+  m_fontColor: {r: 0.4509804, g: 0.109803915, b: 0.41658458, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -833,15 +833,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

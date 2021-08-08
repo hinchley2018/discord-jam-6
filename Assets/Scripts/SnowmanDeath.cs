@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class SnowmanDeath : MonoBehaviour
 {
-    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClipSO deathSound;
     
     private void Start()
     {
-        AudioPlayer.PlaySound(deathSound);
+        AudioClipSO.Play(deathSound);
         Destroy(gameObject,6);
     }
 }
