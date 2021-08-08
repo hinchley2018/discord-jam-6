@@ -8,10 +8,12 @@ public class Bank : MonoBehaviour
     [SerializeField] private int cost;
     [SerializeField] private float rate = 1;
     private bool exists = true;
+    [SerializeField] private AudioClip buildSound;
     private void Start()
     {
         FindObjectOfType<CurrencyManager>().AddReward(-cost);
         StartCoroutine(EarnIncome());
+        if (buildSound) AudioPlayer.PlaySound(buildSound);
     }
 
     private IEnumerator EarnIncome()

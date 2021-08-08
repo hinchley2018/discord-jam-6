@@ -47,6 +47,7 @@ MonoBehaviour:
   income: 1
   cost: 20
   rate: 1
+  buildSound: {fileID: 8300000, guid: a400d3a934a82e84a92ecf1842cf7135, type: 3}
 --- !u!1 &1114993786200738365
 GameObject:
   m_ObjectHideFlags: 0

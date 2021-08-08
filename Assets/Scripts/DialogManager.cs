@@ -19,10 +19,11 @@ public class DialogManager : MonoBehaviour
             "<b>Narration:</b> Hello welcome to Chill Out And Build!",
             "<b>Narration:</b> You play as an aspiring business tycoon, who has come North to the small town of Winteria to start building your empire",
             "<b>Narration:</b> You saved up some money so start construction on some buildings, click the buttons below to get started!",
-            "<b>Narration:</b> If you don't have enough money for a factory, buy a hot cocoa hut and earn passive money",
+            //"<b>Narration:</b> If you don't have enough money for a factory, buy a hot cocoa hut and earn passive money",
             "<b>Narration:</b> Keep in mind you only have so much space in Winteria, so choose carefully",
-            "<b>Narration:</b> As you started building factories in the beautiful little town, you got the occasional environmental complaint letter in the mail.",
-            "<b>Narration:</b> Build some snowmen so the townspeople will leave you alone!",
+            //"<b>Narration:</b> As you started building factories in the beautiful little town, you got the occasional environmental complaint letter in the mail.",
+            //"<b>Narration:</b> Build some snowmen so the townspeople will leave you alone!",
+            // Wave 1 ....
             "<b>Snowmen:</b> We thought our letters would be enough to get you to stop melting our snow.",
             "<b>Snowmen:</b> If you want something done right you have to do it yourself. Die humans!",
             "<b>Narration:</b> Factories produce heat. Hurry and melt them before the destory the town center",
@@ -44,8 +45,9 @@ public class DialogManager : MonoBehaviour
 
     private void OnEnable()
     {
+        _dialogCanvas.SetActive(false);
         gameEvents.startWave.AddListener(HandleStartWave);
-        gameEvents.startWave.Invoke(0);
+        StartCoroutine(WaitForOthersToOnEnableAndThenStartWave());
     }
 
     private void OnDisable()
@@ -53,14 +55,23 @@ public class DialogManager : MonoBehaviour
         gameEvents.startWave.RemoveListener(HandleStartWave);
     }
 
+    private IEnumerator WaitForOthersToOnEnableAndThenStartWave()
+    {
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        gameEvents.startWave.Invoke(0);
+    }
+
     private void HandleStartWave(int waveNum)
     {
-        Debug.Log($"DialogManager: Beginning of {waveNum}");
+        //Debug.Log($"DialogManager: Beginning of {waveNum}");
         //get dialog list for that wave
         waveIndex = waveNum;
         var waveDialogList = dialogStorage[waveIndex];
         if (waveDialogList.Count > 0)
         {
+            Time.timeScale = 0.00001f;
+
             //reset dialog index
             innerDialogIndex = 0;
 
@@ -73,10 +84,8 @@ public class DialogManager : MonoBehaviour
             _dialogTextWidget.text = waveDialogList[innerDialogIndex];
             
         }
-
     }
     
-
     //next dialog
     public void NextDialog()
     {
@@ -91,12 +100,12 @@ public class DialogManager : MonoBehaviour
         }
 
         //On the zeroth wave we control wave start invocation
-        if (waveIndex == 0 && (waveDialogList.Count - 1 == innerDialogIndex) ){
+        if (waveDialogList.Count - 1 == innerDialogIndex)
+        {
             //hide dialog canvas
-            Debug.Log("hiding dialog");
+            //Debug.Log("hiding dialog");
             _dialogCanvas.SetActive(false);
-
-            gameEvents.startWave.Invoke(1);
+            Time.timeScale = 1f;
         }
     }
 
