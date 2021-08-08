@@ -942,6 +942,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1353939341216948627, guid: 4133533f092da7b4991ab7642029e321, type: 3}
+      propertyPath: startingWave
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5323345906063964348, guid: 4133533f092da7b4991ab7642029e321, type: 3}
       propertyPath: m_Name
       value: WaveManager
@@ -1583,7 +1587,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4087338052985720571, guid: cefd54d4d2d0a3f48b90e41ffbeb3288, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4087338052985720574, guid: cefd54d4d2d0a3f48b90e41ffbeb3288, type: 3}
       propertyPath: m_Name

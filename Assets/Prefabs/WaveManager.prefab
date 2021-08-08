@@ -176,6 +176,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252194294127, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252651830020, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956252817611150, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294956253197113175, guid: 4783faee896116c4783842ea78461fa6, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 4526205718988798835, guid: 4783faee896116c4783842ea78461fa6, type: 3}
       propertyPath: m_Name
       value: Wave (10)

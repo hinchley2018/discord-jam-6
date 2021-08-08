@@ -11,6 +11,7 @@ public class Snowman : MonoBehaviour
     [SerializeField] private AudioClip spawnSound;
     [SerializeField] private bool IsInFactoryDamageRange = false;
     [SerializeField] private GameObject snowmanDeathPrefab;
+    [SerializeField] private float stopRadius = 1;
     private float delay = .25F;
     private Coroutine coroutine;
 
@@ -22,6 +23,9 @@ public class Snowman : MonoBehaviour
 
     private void Update()
     {
+        var delta = transform.position - target.position;
+        var distanceToTarget = delta.magnitude;
+        if (distanceToTarget <= stopRadius) return;
         var direction = target.position - transform.position;
         direction = direction.normalized;
         transform.position += direction * (speed * Time.deltaTime);

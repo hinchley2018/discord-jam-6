@@ -42,6 +42,7 @@ public class TownCenter : MonoBehaviour
                     }
                     else
                     {
+                        gameEvents.gameOver.Invoke();
                         break;
                     }
                 }
