@@ -1,28 +1,32 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Snowman : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] public float speed;
     [SerializeField] private int reward;
     [SerializeField] public float health;
     [SerializeField] public float maxHealth;
     [SerializeField] private Transform target;
     [SerializeField] private Vector3 targetWithRandomness;
     [SerializeField] private AudioClip spawnSound;
-    [SerializeField] private bool IsInFactoryDamageRange = false;
     [SerializeField] private GameObject snowmanDeathPrefab;
     [SerializeField] private float stopRadius = 1;
-    private float delay = .25F;
+    [SerializeField] private float delayBetweenTakeDamage = .25F;
+    [SerializeField] public int attackDamage = 1;
     private Coroutine coroutine;
     private Slider _slider;
+    private List<Factory> factoriesNearMe = new List<Factory>();
+    private CurrencyManager _currencyManager;
 
     private void Awake()
     {
         _slider = GetComponentInChildren<Slider>();
+        _currencyManager = FindObjectOfType<CurrencyManager>();
     }
 
     private void Start()
@@ -30,6 +34,13 @@ public class Snowman : MonoBehaviour
         target = FindObjectOfType<TownCenter>().transform;
         targetWithRandomness = target.position + (Vector3) Random.insideUnitCircle;
         if (spawnSound) AudioPlayer.PlaySound(spawnSound);
+        coroutine = StartCoroutine(CheckForDamage());
+    }
+
+    private void OnDestroy()
+    {
+        if (coroutine != null) StopCoroutine(CheckForDamage());
+        coroutine = null;
     }
 
     private void Update()
@@ -45,36 +56,38 @@ public class Snowman : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<Factory>())
-        {
-            IsInFactoryDamageRange = true;
-            coroutine = StartCoroutine(CheckForDamage());
-        }
-            
+        var factory = other.gameObject.GetComponent<Factory>();
+        if (factory)
+            factoriesNearMe.Add(factory);
     }
+
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<Factory>())
-        {
-            if (coroutine != null) StopCoroutine(coroutine);
-            IsInFactoryDamageRange = false;
-        }
+        var factory = other.gameObject.GetComponent<Factory>();
+        if (factory)
+            factoriesNearMe.Remove(factory);
     }
 
     private IEnumerator CheckForDamage()
     {
-        while (IsInFactoryDamageRange)
+        while (enabled)
         {
-            if (health == 0)
+            if (health <= 0)
             {
-                var _currencyManager = FindObjectOfType<CurrencyManager>();
                 _currencyManager.AddReward(reward);
                 Instantiate(snowmanDeathPrefab, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
-            health -= 1;
-            yield return new WaitForSeconds(delay);
+
+            if (factoriesNearMe.Count > 0)
+            {
+                health -= factoriesNearMe.Count * 1;
+                yield return new WaitForSeconds(delayBetweenTakeDamage);
+            }
+            else
+            {
+                yield return new WaitForEndOfFrame();
+            }
         }
     }
-    
 }

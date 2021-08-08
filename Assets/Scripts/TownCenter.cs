@@ -11,7 +11,7 @@ public class TownCenter : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private AudioClipSO damageSound;
     private float damageDelay = 1;
-    private List<GameObject> snowmanInRange = new List<GameObject>();
+    private List<Snowman> snowmanInRange = new List<Snowman>();
     private Coroutine coroutine;
     private Slider _slider;
 
@@ -32,13 +32,16 @@ public class TownCenter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log($"Collision with {other.gameObject.name}");
-        if (other.gameObject.GetComponent<Snowman>())
-        {
-            snowmanInRange.Add(other.gameObject);
-            
-        }
-            
+        var snowman = other.gameObject.GetComponent<Snowman>(); 
+        if (snowman)
+            snowmanInRange.Add(snowman);
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        var snowman = other.gameObject.GetComponent<Snowman>(); 
+        if (snowman)
+            snowmanInRange.Remove(snowman);
     }
     
     private IEnumerator CheckForDamage()
@@ -48,13 +51,13 @@ public class TownCenter : MonoBehaviour
             for (int i = 0; i < snowmanInRange.Count; i++)
             {
                 var snowman = snowmanInRange[i];
-                if (snowman != null && snowman.activeInHierarchy)
+                if (snowman && snowman.gameObject.activeInHierarchy)
                 {
                     if (health > 0)
                     {
                         AudioClipSO.Play(damageSound);
-                        Debug.Log($"Towncenter Takes 1 damage from snowman at {i}, remaining health: {health}");
-                        health -= 1;
+                        //Debug.Log($"Towncenter Takes 1 damage from snowman at {i}, remaining health: {health}");
+                        health -= snowman.attackDamage;
                     }
                     else
                     {
@@ -64,7 +67,7 @@ public class TownCenter : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log($"Snowman no longer active removing at {i}");
+                    //Debug.Log($"Snowman no longer active removing at {i}");
                     snowmanInRange.RemoveAt(i);
                 }
             }
