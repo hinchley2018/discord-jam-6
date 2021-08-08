@@ -16,30 +16,48 @@ public class DialogManager : MonoBehaviour
         //0
         new List<string>
         {
-            "<b>Narration:</b> Hello welcome to Chill Out And Build!",
-            "<b>Narration:</b> You play as an aspiring business tycoon, who has come North to the small town of Winteria to start building your empire",
-            "<b>Narration:</b> You saved up some money so start construction on some buildings, click the buttons below to get started!",
-            //"<b>Narration:</b> If you don't have enough money for a factory, buy a hot cocoa hut and earn passive money",
-            "<b>Narration:</b> Keep in mind you only have so much space in Winteria, so choose carefully",
-            //"<b>Narration:</b> As you started building factories in the beautiful little town, you got the occasional environmental complaint letter in the mail.",
-            //"<b>Narration:</b> Build some snowmen so the townspeople will leave you alone!",
-            // Wave 1 ....
-            "<b>Snowmen:</b> We thought our letters would be enough to get you to stop melting our snow.",
-            "<b>Snowmen:</b> If you want something done right you have to do it yourself. Die humans!",
-            "<b>Narration:</b> Factories produce heat. Hurry and melt them before the destory the town center",
+            "Hello welcome to Chill Out And Build!",
+            "You play as an aspiring business tycoon, who has come North to the small town of Winteria to start building your empire",
+            "You saved up some money so start construction on some buildings, click the buttons below to get started!",
+            "Keep in mind you only have so much space in Winteria, so choose carefully",
             
         },
-        //1 no dialog
-        new List<string>(),
+        //1 snowmen attack
+        new List<string>
+        {
+            "<b>Snowmen:</b> We thought the subzero temperatures would be enough to stop you humans from melting our snow.",
+            "<b>Snowmen:</b> Your factories are polluting the atmosphere and melting our polar palaces!",
+            "<b>Snowmen:</b> If you want something done right you have to do it yourself. Die humans!",
+            
+        },
         //2 no dialog
         new List<string>(),
         //3 no dialog
         new List<string>(),
+        //4 no dialog
+        new List<string>(),
         //5 - boss play dialog
         new List<string>
         {
-            "<b>Snowman:</b> Chill out dude stop melting us, or we will send out our big brother",
+            "<b>Snowman:</b> Chill out! If you don't stop melting us, we will send out our big brother",
             "<b>Snowmen:</b> Alright well we warned you, and you didn't listen",
+        },
+        //6 no dialog
+        new List<string>(),
+        //7 no dialog
+        new List<string>(),
+        //8 - almost done
+        new List<string>
+        {
+            "<b>Snowman:</b> Where are you getting all your building materials?! We cut off your supply line to the airport!!",
+            "<b>Snowmen:</b> We have ice cold veins, we will destroy you no matter how many snowmen are lost! Our winter wonderland will be protected at any cost!",
+        },
+        //6 no dialog
+        new List<string>(),
+        //10
+        new List<string>
+        {
+            "<b>Snowmen:</b> We brought all our big brothers from the neighboring towns. This is the end of your pollution and heat!"
         }
     };
 
@@ -100,7 +118,7 @@ public class DialogManager : MonoBehaviour
         }
 
         //On the zeroth wave we control wave start invocation
-        if (waveDialogList.Count - 1 == innerDialogIndex)
+        if (waveDialogList.Count == innerDialogIndex)
         {
             //hide dialog canvas
             //Debug.Log("hiding dialog");
