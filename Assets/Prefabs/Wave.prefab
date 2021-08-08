@@ -313,7 +313,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -403,7 +403,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -493,7 +493,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate
@@ -575,7 +575,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: delay
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: spawnRate

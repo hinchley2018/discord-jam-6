@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Random = System.Random;
 
 public class SnowmanSpawner : MonoBehaviour
 {
@@ -14,13 +15,22 @@ public class SnowmanSpawner : MonoBehaviour
     [SerializeField] private int spawnAmount;
     [SerializeField] private float snowmanHealth;
     [SerializeField] private float snowmanMaxHealth;
+    [SerializeField] private float randomnessRange = 1;
+    [SerializeField] private float randomOffset;
     public UnityEvent<Snowman> onSpawn;
-    
+    private CircleCollider2D _collider;
+
     private readonly List<Snowman> _snowmen = new List<Snowman>();
     public bool AllSnowmenMelted => isFinished && _snowmen.Count == 0;
 
+    private void Awake()
+    {
+        _collider = GetComponent<CircleCollider2D>();
+    }
+
     private void OnEnable()
     {
+        randomOffset = UnityEngine.Random.Range(-randomnessRange, randomnessRange);
         StartCoroutine(SpawnSnowmen());
     }
 
@@ -39,17 +49,18 @@ public class SnowmanSpawner : MonoBehaviour
     private IEnumerator SpawnSnowmen()
     {
         isRunning = true;
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(delay + randomOffset);
         for (var i = 0; i < spawnAmount; i++)
         {
             var snowmanGameObject = Instantiate(snowmanPrefab);
-            snowmanGameObject.transform.position = transform.position;
+            var randomSpawnPositionOffset = (Vector3)UnityEngine.Random.insideUnitCircle * _collider.radius;
+            snowmanGameObject.transform.position = transform.position + randomSpawnPositionOffset;
             var snowman = snowmanGameObject.GetComponent<Snowman>();
             snowman.health = snowmanHealth;
             snowman.maxHealth = snowmanMaxHealth;
             onSpawn.Invoke(snowman);
             _snowmen.Add(snowman);
-            yield return new WaitForSeconds(spawnRate);
+            yield return new WaitForSeconds(spawnRate + randomOffset);
         }
 
         isFinished = true;

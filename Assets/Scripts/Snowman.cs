@@ -8,6 +8,7 @@ public class Snowman : MonoBehaviour
     [SerializeField] public float health;
     [SerializeField] public float maxHealth;
     [SerializeField] private Transform target;
+    [SerializeField] private Vector3 targetWithRandomness;
     [SerializeField] private AudioClip spawnSound;
     [SerializeField] private bool IsInFactoryDamageRange = false;
     [SerializeField] private GameObject snowmanDeathPrefab;
@@ -18,6 +19,7 @@ public class Snowman : MonoBehaviour
     private void Start()
     {
         target = FindObjectOfType<TownCenter>().transform;
+        targetWithRandomness = target.position + (Vector3) Random.insideUnitCircle;
         AudioPlayer.PlaySound(spawnSound);
     }
 
@@ -26,7 +28,7 @@ public class Snowman : MonoBehaviour
         var delta = transform.position - target.position;
         var distanceToTarget = delta.magnitude;
         if (distanceToTarget <= stopRadius) return;
-        var direction = target.position - transform.position;
+        var direction = targetWithRandomness - transform.position;
         direction = direction.normalized;
         transform.position += direction * (speed * Time.deltaTime);
         

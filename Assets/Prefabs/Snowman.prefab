@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4586872478862315968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.78, z: 3.2773159}
-  m_LocalScale: {x: 1, y: 0.12593749, z: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 0.125, z: 1}
   m_Children: []
   m_Father: {fileID: 3544533939112456762}
   m_RootOrder: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1580324341
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.09272681, g: 0.990566, b: 0, a: 1}
@@ -109,8 +109,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6350389307284236593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.79485714, y: -1.6242545, z: -1.3109263}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8495824155216103766}
   - {fileID: 7727612043679818455}
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -142,7 +142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
 --- !u!50 &-8631649179383320784
 Rigidbody2D:
@@ -185,6 +185,7 @@ MonoBehaviour:
   spawnSound: {fileID: 8300000, guid: c330187db07d4ab48822ff21558d9fd0, type: 3}
   IsInFactoryDamageRange: 0
   snowmanDeathPrefab: {fileID: 6710799134877837851, guid: c153a24650e93df45abf9edb43c91336, type: 3}
+  stopRadius: 1
 --- !u!1 &6665816366290800328
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,8 +211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6665816366290800328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.78, z: 3.2773159}
-  m_LocalScale: {x: 0, y: 0.12593749, z: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 0, y: 0.125, z: 1}
   m_Children: []
   m_Father: {fileID: 3544533939112456762}
   m_RootOrder: 1
@@ -253,8 +254,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1580324341
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.99215686, g: 0.020050997, b: 0, a: 1}
@@ -294,7 +295,7 @@ Transform:
   m_GameObject: {fileID: 8924916661425781350}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8, y: 2.8, z: 2.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3544533939112456762}
   m_RootOrder: 2
