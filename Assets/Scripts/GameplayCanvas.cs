@@ -11,12 +11,14 @@ public class GameplayCanvas : MonoBehaviour
     public Button bankButton;
     public Button factoryButton;
     public Button selectedButton;
-    public Color selectedBackground = Color.yellow;
-    public Color selectedForeground = Color.black;
-    public Color regularBackground = Color.white;
-    public Color regularForeground = Color.grey;
-    public Color disabledBackground = Color.grey;
-    public Color disabledForeground = Color.grey;
+    public Sprite regularSnowmanSprite;
+    public Sprite regularHutSprite;
+    public Sprite regularBankSprite;
+    public Sprite regularFactorySprite;
+    public Sprite selectedSnowmanSprite;
+    public Sprite selectedHutSprite;
+    public Sprite selectedBankSprite;
+    public Sprite selectedFactorySprite;
     public int hutCost = 1;
     public int bankCost = 20;
     public int factoryCost = 50;
@@ -35,19 +37,16 @@ public class GameplayCanvas : MonoBehaviour
 
     private void Update()
     {
-        var buttons = new[] {snowmanButton, hutButton, bankButton, factoryButton};
-        foreach (var button in buttons)
-        {
-            button.image.color = button.interactable ? regularBackground : disabledBackground;
-            button.transform.GetChild(0).GetComponent<Image>().color = button.interactable ? regularForeground : disabledForeground;
-        }
+        snowmanButton.GetComponent<Image>().sprite = regularSnowmanSprite; 
+        hutButton.GetComponent<Image>().sprite = regularHutSprite; 
+        bankButton.GetComponent<Image>().sprite = regularBankSprite; 
+        factoryButton.GetComponent<Image>().sprite = regularFactorySprite; 
 
-        if (selectedButton)
-        {
-            selectedButton.image.color = selectedBackground;
-            selectedButton.transform.GetChild(0).GetComponent<Image>().color = selectedForeground;
-        }
-        
+        if (selectedButton == snowmanButton) snowmanButton.GetComponent<Image>().sprite = selectedSnowmanSprite;
+        if (selectedButton == hutButton) hutButton.GetComponent<Image>().sprite = selectedHutSprite;
+        if (selectedButton == bankButton) bankButton.GetComponent<Image>().sprite = selectedBankSprite;
+        if (selectedButton == factoryButton) factoryButton.GetComponent<Image>().sprite = selectedFactorySprite;
+
         hutButton.interactable = currencyManager.money >= hutCost;
         bankButton.interactable = currencyManager.money >= bankCost;
         factoryButton.interactable = currencyManager.money >= factoryCost;

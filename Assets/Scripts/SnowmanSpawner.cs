@@ -15,6 +15,8 @@ public class SnowmanSpawner : MonoBehaviour
     [SerializeField] private int spawnAmount;
     [SerializeField] private float snowmanHealth;
     [SerializeField] private float snowmanMaxHealth;
+    [SerializeField] private int snowmanAttackDamage = 1;
+    [SerializeField] private float snowmanSpeed = 1;
     [SerializeField] private float randomnessRange = 1;
     [SerializeField] private float randomOffset;
     public UnityEvent<Snowman> onSpawn;
@@ -58,6 +60,8 @@ public class SnowmanSpawner : MonoBehaviour
             var snowman = snowmanGameObject.GetComponent<Snowman>();
             snowman.health = snowmanHealth;
             snowman.maxHealth = snowmanMaxHealth;
+            snowman.speed = snowmanSpeed;
+            snowman.attackDamage = snowmanAttackDamage;
             onSpawn.Invoke(snowman);
             _snowmen.Add(snowman);
             yield return new WaitForSeconds(spawnRate + randomOffset);
