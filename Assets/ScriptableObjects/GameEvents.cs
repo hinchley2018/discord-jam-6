@@ -14,11 +14,13 @@ public class GameEvents : ScriptableObject
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
 
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1;
     }
 
     public void ActivateSelection(GameObject prefab)

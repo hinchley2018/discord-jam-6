@@ -8,12 +8,14 @@ public class WaveManager : MonoBehaviour
     private void OnEnable()
     {
         gameEvents.startWave.AddListener(StartWave);
+        gameEvents.gameOver.AddListener(SlowDownTime);
         gameEvents.startWave.Invoke(startingWave);
     }
     
     private void OnDisable()
     {
         gameEvents.startWave.RemoveListener(StartWave);
+        gameEvents.gameOver.RemoveListener(SlowDownTime);
     }
 
     private void StartWave(int waveNumber)
@@ -29,5 +31,10 @@ public class WaveManager : MonoBehaviour
             child.gameObject.SetActive(true);
             break;
         }
+    }
+
+    private void SlowDownTime()
+    {
+        Time.timeScale = 0.1f;
     }
 }
