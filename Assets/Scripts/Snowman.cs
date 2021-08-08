@@ -1,12 +1,12 @@
 using System.Collections;
-using System;
 using UnityEngine;
 
 public class Snowman : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private int reward;
-    [SerializeField] private int health;
+    [SerializeField] public float health;
+    [SerializeField] public float maxHealth;
     [SerializeField] private Transform target;
     [SerializeField] private AudioClip spawnSound;
     [SerializeField] private bool IsInFactoryDamageRange = false;

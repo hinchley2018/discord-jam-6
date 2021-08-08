@@ -7,6 +7,8 @@ public class GameEvents : ScriptableObject
 {
     public UnityEvent<int> startWave;
     public UnityEvent gameOver;
+    public UnityEvent finishSpawning;
+    public UnityEvent allWaveSnowmenMelted;
     public GameObject buildingPrefab;
 
     public void RestartGame()

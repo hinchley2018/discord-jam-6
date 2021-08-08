@@ -123,6 +123,239 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &48353834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!1001 &103552237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!1001 &130842995
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6750002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!4 &143883592 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 983674263}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &159768166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6750002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6819997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &217564143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,6 +542,120 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 291753984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &299573272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6750002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!1001 &304830577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &328734510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -464,6 +811,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &388533181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 723388081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &393754936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -832,6 +1184,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &590330702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 299573272}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &625003014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1014,6 +1371,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1712748016121203843, guid: fa736d4b22f879543a2a808055167609, type: 3}
   m_PrefabInstance: {fileID: 625003014}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &647535055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 103552237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &661634618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1120,6 +1482,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8529663127819782408, guid: 925e505be9304dc48bd0de67f58ef92f, type: 3}
   m_PrefabInstance: {fileID: 661634618}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &683965002 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 130842995}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &690928167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1517,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &723388081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.8550005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &777766635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1171,6 +1595,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4087338052985720570, guid: cefd54d4d2d0a3f48b90e41ffbeb3288, type: 3}
   m_PrefabInstance: {fileID: 777766635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &800224344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.52999973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6819997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!4 &820895150 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 159768166}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &848864369
 PrefabInstance:
@@ -1420,6 +1906,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 906864884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &925810922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.8550005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &948414539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1482,6 +2025,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 948414539}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &983674263
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.52999973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6680002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &999288617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1543,6 +2143,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 999288617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1019044426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 48353834}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1019910752
 GameObject:
@@ -1672,6 +2277,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 493920956237960483, guid: 3c9ddc882cd398a40834cf9284736c24, type: 3}
   m_PrefabInstance: {fileID: 1042047883}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072884471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 1675447233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1119886692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +2310,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5114473886946026004}
+  - {fileID: 1324418470}
+  - {fileID: 647535055}
+  - {fileID: 1019044426}
+  - {fileID: 388533181}
+  - {fileID: 1964125435}
+  - {fileID: 1839102488}
+  - {fileID: 1794155259}
+  - {fileID: 683965002}
+  - {fileID: 1878539294}
+  - {fileID: 590330702}
+  - {fileID: 143883592}
+  - {fileID: 1072884471}
+  - {fileID: 1386569586}
+  - {fileID: 820895150}
+  - {fileID: 1620883959}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1889,11 +2514,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1238801874}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1324418470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 1757989945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1386569586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 304830577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1447727926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270394118898502028, guid: f729551650b471944869a328c4b823ba, type: 3}
   m_PrefabInstance: {fileID: 1529423155}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1476757123
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &1490167494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2949,6 +3641,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6823101476206790830, guid: 5027c0ec2d2dce94f829e51a13758571, type: 3}
   m_PrefabInstance: {fileID: 6823101475312811244}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1620883959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 800224344}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1648680615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3073,6 +3770,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1655542039}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1675447233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6750002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &1712584830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3135,6 +3889,120 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1712584830}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1727823773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+--- !u!1001 &1757989945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &1791980895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3196,6 +4064,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1791980895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1794155259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 1727823773}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1817084333 stripped
 MonoBehaviour:
@@ -3316,6 +4189,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1838221943}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1839102488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 925810922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1839193108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3378,6 +4256,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1839193108}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1859684691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1119886693}
+    m_Modifications:
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582457966066164737, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+      propertyPath: m_Name
+      value: Snowman Place Holder (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
 --- !u!1001 &1868836665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3439,6 +4374,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1868836665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1878539294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 1476757123}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1910957291
 PrefabInstance:
@@ -3625,6 +4565,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 1959339055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1964125435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2230246102342447542, guid: 7f5859920ef3aa14085fcd6be7ec58a4, type: 3}
+  m_PrefabInstance: {fileID: 1859684691}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1965019816 stripped
 Transform:

@@ -43,3 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad59b94c99481140a07d5bb691d255a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRunning: 0
+  isFinished: 0
+  snowmanPrefab: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+  delay: 0
+  spawnRate: 0
+  spawnAmount: 0
+  snowmanHealth: 3
+  snowmanMaxHealth: 3
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []

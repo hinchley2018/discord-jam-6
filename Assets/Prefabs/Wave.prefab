@@ -263,6 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1899556661406951905}
+  - component: {fileID: 5230720501684216325}
   m_Layer: 0
   m_Name: Wave
   m_TagString: Untagged
@@ -289,6 +290,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5230720501684216325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526205718988798835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481caf87ee0568c478d3d6ff64683bed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveNumber: 0
+  gameEvents: {fileID: 11400000, guid: 08523551e2b0a1a44984034ad102dba8, type: 2}
 --- !u!1001 &4015039661203864816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,9 +324,17 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
       value: 
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
       value: Spawner (4)
@@ -391,9 +414,17 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
       value: 
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
       value: Spawner (3)
@@ -555,9 +586,17 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanHealth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: snowmanPrefab
       value: 
       objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+    - target: {fileID: 874532549819444135, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
+      propertyPath: snowmanMaxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2757213111895169792, guid: 8a8cce6428739e5428dabf6701195759, type: 3}
       propertyPath: m_Name
       value: Spawner (1)
