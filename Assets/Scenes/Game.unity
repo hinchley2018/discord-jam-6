@@ -942,10 +942,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1353939341216948627, guid: 4133533f092da7b4991ab7642029e321, type: 3}
-      propertyPath: startingWave
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5323345906063964348, guid: 4133533f092da7b4991ab7642029e321, type: 3}
       propertyPath: m_Name
       value: WaveManager
@@ -1327,46 +1323,6 @@ PrefabInstance:
     - target: {fileID: 8536837185495653019, guid: fa736d4b22f879543a2a808055167609, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ActivateSnowmanSelection
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: GameEvents, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8597040979104574498, guid: fa736d4b22f879543a2a808055167609, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa736d4b22f879543a2a808055167609, type: 3}
@@ -4828,25 +4784,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8373614153583682759, guid: bc31eade48ae8504cba21ab09bcbe950, type: 3}
   m_PrefabInstance: {fileID: 2023781514}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2034660351 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4584565406416782409, guid: 0823cd8a99b08b349bc2f035736ffa7d, type: 3}
-  m_PrefabInstance: {fileID: 4584565404659234742}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2034660352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034660351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70990d6e9391e6642a4ae595523ee64d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _currencyText: {fileID: 1817084333}
-  money: 100
 --- !u!1001 &2048360719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5085,6 +5022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CurrencyManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8332105626825747369, guid: 0823cd8a99b08b349bc2f035736ffa7d, type: 3}
+      propertyPath: _currencyText
+      value: 
+      objectReference: {fileID: 1817084333}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0823cd8a99b08b349bc2f035736ffa7d, type: 3}
 --- !u!4 &5114473886946026004 stripped

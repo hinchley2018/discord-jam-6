@@ -5,9 +5,11 @@ using UnityEngine;
 public class Bank : MonoBehaviour
 {
     [SerializeField] private int income;
+    [SerializeField] private int cost;
     private bool exists = true;
     private void Start()
     {
+        FindObjectOfType<CurrencyManager>().AddReward(-cost);
         StartCoroutine(EarnIncome());
     }
 

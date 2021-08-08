@@ -25,6 +25,7 @@ public class GameEvents : ScriptableObject
 
     public void ActivateSelection(GameObject prefab)
     {
+        DeactivateSelection();
         buildingPrefab = prefab;
         foreach(var buildingPlaceHolder in FindObjectsOfType<BuildingPlaceHolder>())
             buildingPlaceHolder.ActivateSelection();
@@ -32,6 +33,7 @@ public class GameEvents : ScriptableObject
     
     public void ActivateSnowmanSelection(GameObject prefab)
     {
+        DeactivateSelection();
         buildingPrefab = prefab;
         foreach(var snowmanPlaceHolder in FindObjectsOfType<SnowmanPlaceHolder>())
             snowmanPlaceHolder.ActivateSelection();

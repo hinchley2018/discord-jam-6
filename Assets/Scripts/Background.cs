@@ -8,5 +8,6 @@ public class Background : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         gameEvents.DeactivateSelection();
+        FindObjectOfType<GameplayCanvas>().selectedButton = null;
     }
 }

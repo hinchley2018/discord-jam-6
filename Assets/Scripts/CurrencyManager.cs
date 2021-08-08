@@ -1,14 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 public class CurrencyManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _currencyText;
-    [SerializeField] private int money;
-    // Start is called before the first frame update
-    
+    public int money;
+
+    private void Start()
+    {
+        AddReward(0);
+    }
+
     public void AddReward(int reward)
     {
         money += reward;

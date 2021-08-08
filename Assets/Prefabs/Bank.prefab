@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   income: 5
+  cost: 20
 --- !u!1 &1114993786200738365
 GameObject:
   m_ObjectHideFlags: 0
