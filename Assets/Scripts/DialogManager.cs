@@ -96,7 +96,7 @@ public class DialogManager : MonoBehaviour
             Debug.Log("hiding dialog");
             _dialogCanvas.SetActive(false);
 
-            gameEvents.startWave.Invoke(waveIndex + 1);
+            gameEvents.startWave.Invoke(1);
         }
     }
 
