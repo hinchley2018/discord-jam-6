@@ -9,7 +9,8 @@ public class Factory : MonoBehaviour
     {
         FindObjectOfType<CurrencyManager>().AddReward(-cost);
         var factories = FindObjectsOfType<Factory>();
-        if (factories.Length == 1)
-            gameEvents.startWave.Invoke(1);
+        //disabled for now, I'd like the snowman being placed to start the wave
+        //if (factories.Length == 1)
+        //    gameEvents.startWave.Invoke(1);
     }
 }

@@ -16,16 +16,29 @@ public class DialogManager : MonoBehaviour
         //0
         new List<string>
         {
-            "<b>Snowman Says:</b> Hello welcome to Chill Out and Build",
-            "Second dialog text",
-            "Third dialog text"
+            "<b>Narration:</b> Hello welcome to Chill Out And Build!",
+            "<b>Narration:</b> You play as an aspiring business tycoon, who has come North to the small town of Winteria to start building your empire",
+            "<b>Narration:</b> You saved up some money so start construction on some buildings, click the buttons below to get started!",
+            "<b>Narration:</b> If you don't have enough money for a factory, buy a hot cocoa hut and earn passive money",
+            "<b>Narration:</b> Keep in mind you only have so much space in Winteria, so choose carefully",
+            "<b>Narration:</b> As you started building factories in the beautiful little town, you got the occasional environmental complaint letter in the mail.",
+            "<b>Narration:</b> Build some snowmen so the townspeople will leave you alone!",
+            "<b>Snowmen:</b> We thought our letters would be enough to get you to stop melting our snow.",
+            "<b>Snowmen:</b> If you want something done right you have to do it yourself. Die humans!",
+            "<b>Narration:</b> Factories produce heat. Hurry and melt them before the destory the town center",
+            
         },
         //1 no dialog
         new List<string>(),
+        //2 no dialog
+        new List<string>(),
+        //3 no dialog
+        new List<string>(),
+        //5 - boss play dialog
         new List<string>
         {
-            "<b>Snowman Says:</b> Wave 1 incoming!",
-            "<b>Snowman Says:</b> Chill out dude stop melting us",
+            "<b>Snowman:</b> Chill out dude stop melting us, or we will send out our big brother",
+            "<b>Snowmen:</b> Alright well we warned you, and you didn't listen",
         }
     };
 
@@ -77,8 +90,8 @@ public class DialogManager : MonoBehaviour
             _dialogTextWidget.text = nextText;
         }
 
-        //now are we done with dialog? (3 elements) index: 2
-        if (waveDialogList.Count - 1 == innerDialogIndex ){
+        //On the zeroth wave we control wave start invocation
+        if (waveIndex == 0 && (waveDialogList.Count - 1 == innerDialogIndex) ){
             //hide dialog canvas
             Debug.Log("hiding dialog");
             _dialogCanvas.SetActive(false);

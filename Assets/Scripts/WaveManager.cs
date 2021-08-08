@@ -9,7 +9,7 @@ public class WaveManager : MonoBehaviour
     {
         gameEvents.startWave.AddListener(StartWave);
         gameEvents.gameOver.AddListener(SlowDownTime);
-        gameEvents.startWave.Invoke(startingWave);
+        //gameEvents.startWave.Invoke(startingWave);
     }
     
     private void OnDisable()
