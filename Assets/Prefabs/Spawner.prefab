@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3877190324039071996}
   - component: {fileID: 874532549819444135}
+  - component: {fileID: 7554110576809704507}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -43,3 +44,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad59b94c99481140a07d5bb691d255a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRunning: 0
+  isFinished: 0
+  snowmanPrefab: {fileID: 6350389307284236593, guid: 6adba345d3d2e944bbafb47d85684f10, type: 3}
+  delay: 0
+  spawnRate: 0
+  spawnAmount: 0
+  snowmanHealth: 3
+  snowmanMaxHealth: 3
+  randomnessRange: 1
+  randomOffset: 0
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!58 &7554110576809704507
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757213111895169792}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1

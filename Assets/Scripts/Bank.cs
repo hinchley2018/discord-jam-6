@@ -5,9 +5,12 @@ using UnityEngine;
 public class Bank : MonoBehaviour
 {
     [SerializeField] private int income;
+    [SerializeField] private int cost;
+    [SerializeField] private float rate = 1;
     private bool exists = true;
     private void Start()
     {
+        FindObjectOfType<CurrencyManager>().AddReward(-cost);
         StartCoroutine(EarnIncome());
     }
 
@@ -16,10 +19,9 @@ public class Bank : MonoBehaviour
         //initial delay
         while (exists)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(rate);
             var _currencyManager = FindObjectOfType<CurrencyManager>();
             _currencyManager.AddReward(income);
-            yield return new WaitForSeconds(2);
         }
         
     }

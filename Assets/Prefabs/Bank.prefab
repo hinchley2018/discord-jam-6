@@ -44,7 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7fae4e963a69fe41ae0a86675899b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  income: 5
+  income: 1
+  cost: 20
+  rate: 1
 --- !u!1 &1114993786200738365
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230517005287627900}
   - component: {fileID: 1946867357303773812}
+  - component: {fileID: 5445470822061633904}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -127,3 +130,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!210 &5445470822061633904
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114993786200738365}
+  m_Enabled: 1
+  m_SortingLayerID: 796997791
+  m_SortingLayer: 1
+  m_SortingOrder: 0

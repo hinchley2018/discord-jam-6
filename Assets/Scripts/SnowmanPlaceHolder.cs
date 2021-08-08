@@ -38,6 +38,8 @@ public class SnowmanPlaceHolder : MonoBehaviour, IPointerClickHandler
         if (gameEvents && gameEvents.buildingPrefab)
         {
             var building = Instantiate(gameEvents.buildingPrefab, transform.position, transform.rotation);
+            gameEvents.DeactivateSelection();
+            FindObjectOfType<GameplayCanvas>().selectedButton = null;
         }
         Destroy(gameObject);
         }
